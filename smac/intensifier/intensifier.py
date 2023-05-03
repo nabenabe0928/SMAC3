@@ -50,7 +50,7 @@ class Intensifier(AbstractIntensifier):
         scenario: Scenario,
         max_config_calls: int = 3,
         max_incumbents: int = 10,
-        retries: int = 16,
+        retries: int = 1000,
         seed: int | None = None,
     ):
         super().__init__(scenario=scenario, max_config_calls=max_config_calls, max_incumbents=max_incumbents, seed=seed)
